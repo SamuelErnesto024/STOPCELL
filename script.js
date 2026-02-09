@@ -136,3 +136,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+function enterStore() {
+    const screen = document.getElementById('welcome-screen');
+    screen.style.opacity = '0';
+    setTimeout(() => {
+        screen.style.display = 'none';
+    }, 800);
+}
